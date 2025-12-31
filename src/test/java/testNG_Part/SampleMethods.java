@@ -22,6 +22,10 @@ public class SampleMethods extends BaseClass_Utilities{
 	public void sample3()
 	{
 		System.out.println("Sample 3");
+		for(int i=0;i<7;i++)
+		{
+			System.out.println(i);
+		}
 	}
 
 	
