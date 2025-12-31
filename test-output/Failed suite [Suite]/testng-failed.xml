@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <parameter name="BROWSER" value="chrome"/>
+  <test thread-count="6" parallel="tests" name="ProductTest(failed)(failed)">
+    <classes>
+      <class name="productModule.CreateProductbyVendors_Test">
+        <methods>
+          <include name="logintoapp"/>
+          <include name="closethebrowser"/>
+          <include name="connectToDb"/>
+          <include name="disconnectDB"/>
+          <include name="launchbrowser"/>
+          <include name="createproductbyven"/>
+          <include name="logouttoapp"/>
+        </methods>
+      </class> <!-- productModule.CreateProductbyVendors_Test -->
+    </classes>
+  </test> <!-- ProductTest(failed)(failed) -->
+  <test thread-count="6" parallel="tests" name="ContactsTest(failed)(failed)">
+    <classes>
+      <class name="contactsModule.CreateContactbyOrganizationFrom_Test">
+        <methods>
+          <include name="logintoapp"/>
+          <include name="connectToDb"/>
+          <include name="closethebrowser"/>
+          <include name="craetecontact"/>
+          <include name="disconnectDB"/>
+          <include name="launchbrowser"/>
+          <include name="logouttoapp"/>
+        </methods>
+      </class> <!-- contactsModule.CreateContactbyOrganizationFrom_Test -->
+    </classes>
+  </test> <!-- ContactsTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
