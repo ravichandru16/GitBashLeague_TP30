@@ -26,6 +26,7 @@ public class SampleMethods extends BaseClass_Utilities{
 		{
 			System.out.println(i);
 			System.out.println("Happy new year 2026!!!");
+			System.out.println("Best Wishes");
 		}
 	}
 
