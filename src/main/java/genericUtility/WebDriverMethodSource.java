@@ -535,6 +535,7 @@ public class WebDriverMethodSource {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
 	}
 	
+	
 	/**
 	 * 
 	 * @param driver
@@ -548,6 +549,10 @@ public class WebDriverMethodSource {
 		
 	} 
 	
+	/**
+	 * 
+	 * @param driver
+	 */
 	public void refreshPage(WebDriver driver)
 	{
 		driver.navigate().refresh();
